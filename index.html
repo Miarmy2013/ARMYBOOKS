@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>ArmyBooks</title>
+       <link rel="stylesheet" href="reset.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Lora:wght@300;400;500;700&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+       <link rel="stylesheet" href="styles.css">
+    </head>
+
+<body cz-shortcut-listen="true">
+    <header class="cabeçalho">
+       <div class container="container">
+           <input type="checkbox" id="menu" class="container__botao">
+           <label for="menu">
+              <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+           </label>
+           <ul class="lista-menu">
+            <li class="lista-menu__titulo">Categorias</li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Run:BTS</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Integrantes</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Albuns</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Para Colorir</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Adesivos</a>
+            </li>
+           </ul>
+            <img src="img/Logo.svg" alt="Logo do Armybooks" class="container__imagem">
+       </div>
+       <div class="container">
+          <a href="#"><img src="img/Favoritos.svg" alt="Meus Favoritos" class="container__imagem"></a>
+          <a href="#"><img src="img/Compras.svg" alt="Carrinhos de Compras"  class="container__imagem"></a>
+          <a href="#"><img src="img/Usuario.svg" alt="Meu Perfil"  class="container__imagem"></a>
+       </div>
+    </header>
+
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+        <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+    </section>
+    <section class="carrossel"> 
+        <h2 class="carrossel__titulo">Novos lançamentos</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="img/LA CASA BTS.jfif"
+                 alt="Livro sobre la casa BTS do armybooks"></div>
+            <div class="swiper-slide"><img src="img/BlackSwan.jfif" 
+                alt="Livro sobre o album BlackSwan do armybooks"></div>
+            <div class="swiper-slide"><img src="img/BTS.jfif" 
+                alt="Livro sobre o BTS do armybooks"></div>
+            <div class="swiper-slide"><img src="img/Love.jfif" alt="Livro sobre o album love yourself do armybooks"></div>
+            <div class="swiper-slide"><img src="img/Diario.jfif" alt="Livro sobre o Diario de uma ARMY do armybooks"></div>
+            <div class="swiper-slide"><img src="img/JK.jfif" alt="Livro sobre o JungKook do armybooks"></div>
+        </div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+        </div>
+
+        <div class="card">
+            <!-- 1° linha -->
+            <div class="card__descrição">
+                <!-- 1° coluna -->
+                <div class="descrição">
+                    <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+                    <h2 class="descrição__titulo-livro">Fundos e Picture Cards</h2>
+                    <p class="descrição__texto">Contruindo uma aplicação integrada com a plataforma Pinterest.</p>
+                </div>
+                <!-- 2° coluna -->
+                <img src="img/Angular.svg" class="descrição__imagem">
+            </div>
+
+            <!-- 2° linha -->
+             <div class="card__botões">
+                <!-- 1° coluna -->
+                <ul class="botões">
+                    <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro" class="card__botões"></li>
+                    <li class="botões__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras" class="card__botões"></li>
+                </ul>
+                <!-- 2° coluna -->
+                 <a href="#" class="botões__ancora"><img src="img/Saiba Mais.svg"></a>
+             </div>
+        </div>
+    </section>
+
+    <section class="tópicos">
+        <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="tópicos__lista">
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Namjoon</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Kim Seokjin</a>
+            </li> 
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Yoongi</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">J-Hope</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Park Jimin</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Kim Taehyung</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Jeon Jungkook</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">BTS</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="contato">
+        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+        <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+    </section>
+
+    <hr />
+
+    <footer class="rodapé">
+        <h2 class="rodapé__titulo">Grupo Army</h2>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+  });
+    
+    </script>
+</body>
+
+</html>

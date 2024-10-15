@@ -1,0 +1,22 @@
+@import url("styles/banner.css");
+@import url("styles/header.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+
+:root {
+    --cor-de-fundo: #bf94e2;
+    --branco: #e7d0fa;
+    --roxo: #9c06f3;
+    --lilas-degrade: linear-gradient(97.54deg, #380052 35.49%, #693289 165.37%);
+    --fonte-principal: "Lora";
+    --Roxo: #8500EB;
+    --Roxo-escuro: #370261;
+}
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px;
+}
